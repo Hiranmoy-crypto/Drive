@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+    .jumbotron{
+      background-image: url(Trees.jpg);
+      height: 500px;
+    }
+    .container-sm{
+      font-size: 20px;
+      font-style: italic;
+      color: blue;
+    }
+ #btn1{
+margin: 40px 150px;
+ }
+ #btn2{
+margin:35px 100px;
+ }
+ .card{
+  display:inline;
+ }
+ h1,h4,h5,h2{
+  font-style: italic;
+ }
+ p{
+  font-style:italic;
+ }
+ 
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="trees.png" alt="Logo" width="35" height="25" class="d-inline-block align-text-top">
+            Tree plantation Drive
+          </a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Program</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home tab</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Main-menu
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Registration</a></li>
+                      <li><a class="dropdown-item" href="#">Settings</a></li>
+                      <li><a class="dropdown-item" href="#">Contacts</a></li>
+                      <li><a class="dropdown-item" href="#">Details</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <span class="input-group-text" id="basic-addon1">#</span>
+                  <input type="text" class="form-control" placeholder="USER-ID" aria-label="USER-ID" aria-describedby="basic-addon1">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav> 
+    </header>
+
+
+<br>
+<h1>Joining Details: Program</h1>
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tree plantation Drive Program:</h5>
+        <h4>There are several places where we are celebrating our program,place where you wan to go,
+          register and join this program,party.</h4>
+        <p class="card-text">Date & Time: 5th June 2025 & 10:00 AM - 11:30PM join any time</p>
+        <a href="#" class="btn btn-primary">Follow for more</a>
+        <a href="#" class="btn btn-primary">Join price: 2$ </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Picnic:</h5>
+        <h4>There are several places where we are celebrating our program,place where you wan to go,
+          register and join this program,party.</h4>
+        <a href="#" class="btn btn-primary">Follow for more</a>
+      <a href="#" class="btn btn-primary">Join price: 20$</a>
+      </div>
+    </div>
+  </div>
+</div>
+<center>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Our membership plans: </h5>
+        <h4>Every year where we  celebrate our program,and organise picnic for enjoyment. If you are 
+          interested in nature and caring about the save the nature, join our society.
+        </h4>
+        <a href="#" class="btn btn-primary">More</a>
+      <a href="#" class="btn btn-primary">Price: 5$/year</a>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Is this a good for you ?
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Are you sure do join our society ?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Not interested</button>
+          <button type="button" class="btn btn-primary">Join</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</button>
+</center>
+
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="plantation1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Tree plantation</h5>
+        <p>Students and others are enjoying.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="plantation2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Plantation program 1</h5>
+        <p>Students and others teachers are enjoying.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="plantation4.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-sm-block">
+        <h5>Plantation program </h5>
+        <p>Tree plantation is an important</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="card text-center">
+  <div class="card-header">
+    Ratings
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Hello Everyone, I am Mark Andrewson.</h5>
+    
+    <p class="card-text">Last year i joined this program the "Tree Plantation Drive" really i had enjoyed here a lot the
+      members are very friendly and so polite and the programs and the parties are very cool and facinating,there i got many friends.</p>
+      <p class="card-text">"The Picnic"  really i had enjoyed here a lot also.  </p>
+    
+    <a href="#" class="btn btn-primary">Contacts: Mark Andrewson(Facebook)</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    Updated  reviews 20th October 2024
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Hello Everyone, I am Alfred Ederson.</h5>
+    <p class="card-text">I'm enjoying a tree plantation drive followed by a relaxing picnic. It's a great way to contribute to the environment while spending time outdoors. The fresh air, nature, and good company make it an enjoyable and meaningful experience!</p>
+    <a href="#" class="btn btn-primary">Contacts: alfred25@yahoo.com</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+ Updated reviews 5 months ago
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Hello Friends I am Michel Frank</h5>
+    <p class="card-text">Tree plantation drive organizer:
+
+      ---
+      
+      "I recently participated in the tree plantation drive organized by, and it was an inspiring and well-coordinated event. The team’s dedication to promoting a greener environment was evident in every aspect, from their meticulous planning to the hands-on guidance provided during the drive.  
+      
+      The representatives were friendly, knowledgeable, and passionate about their mission, creating a welcoming atmosphere for volunteers of all ages. It’s heartening to see a community-driven initiative making such a tangible impact on the environment.  
+      
+      I highly recommend joining this society to anyone who wishes to contribute to a sustainable future and be part of a group that genuinely cares about nature."
+      
+    
+    </p>
+    <a href="#" class="btn btn-primary">Mail me: mfrank305@hotmail.com</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+   5 Years ago
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    Other's Reviews
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#list-item-1">Jenifer Rose</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Michel Joshef</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">Imraan Sheikh</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-4">Novel Riyan</a>
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <h4 id="list-item-1">Jenifer Rose</h4>
+      <p>The tree plantation drive was such a rewarding experience, and the picnic that followed made it even more memorable with great food and cheerful company!"</p>
+      <h4 id="list-item-2">Michel Joshef</h4>
+      <p>"Planting trees felt amazing, and the picnic afterward was the perfect way to relax and bond with fellow volunteers."
+
+      </p>
+      <h4 id="list-item-3">Imraan Sheikh</h4>
+      <p>"Loved being part of the plantation drive—it felt great contributing to nature, and the picnic afterward was filled with laughter and fun!"</p>
+      <h4 id="list-item-4">Novel Riyan</h4>
+      <p>"A well-organized event! The plantation drive was meaningful, and the picnic brought everyone together in the best way possible."</p>
+
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <br>
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <br>
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <br>
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <br>
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="picnic 2.jpg" class="d-block w-100" alt="picnic">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="picnic1.jpg" class="d-block w-100" alt="picnic">
+    </div>
+    <div class="carousel-item">
+      <img src="picnic.jpeg" class="d-block w-100" alt="picnic">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</div>
+<h2>Registration membership</h2>
+<form class="row g-3">
+  <div class="col-md-6">
+    <div class="input-group">
+      <span class="input-group-text">First and last name</span>
+      <input type="text" aria-label="First name" class="form-control">
+      <input type="text" aria-label="Last name" class="form-control">
+    </div>
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+      <span class="input-group-text">$</span>
+      <span class="input-group-text" placehholder="5$ Minimum"></span>
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Create username" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
+    </div>
+    <div class="input-group mb-3">
+      <label class="input-group-text" for="inputGroupSelect01">Continent</label>
+      <select class="form-select" id="inputGroupSelect01">
+        <option selected>Where you you from ?</option>
+        <option value="1">Asia</option>
+        <option value="2">Europe</option>
+        <option value="3">North America</option>
+        <option value="4">South America</option>
+        <option value="5">Africa</option>
+        <option value="6">Austraila</option>
+      </select>
+    </div>
+    <label class="input-text" for="inputGroupSelect01">Country</label>
+    <input type="text" class="form-control" id="Country name" placeholder="Country name">
+    <div class="input-group mb-3">
+      <input type="file" class="form-control" id="inputGroupFile02" placeholder="Your-Photo">
+      <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    </div>
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-sm-3">
+    <label for="Gender" class="form-label">What's your gender ?</label>
+    <div class="col-sm-2">
+      <input type="radio" class="form-control" id="radio1">Male
+    <input type="radio" class="form-control" id="radio1">Female
+    <input type="radio" class="form-control" id="radio1">Prefer not to say
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Role</label>
+    <select class="form-select" id="inputGroupSelect01">
+      <option selected>Please select your role?</option>
+      <option value="1">Volunteer</option>
+      <option value="2">Student</option>
+      <option value="3">Teacher</option>
+      <option value="4">Program Organizer</option>
+      <option value="5">Others</option>
+
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="xxxxxxxxx">
+  </div>
+  
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Permanent address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="your address(permanent)">
+  </div>
+  <div class="col-12"> 
+    <label for="inputAddress" class="form-label">Present address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="your address(Present)">
+  </div>
+  
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <input type="text" class="form-control" id="inputtext">
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip Code</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-md-6">
+    <label for="Telephone/Mobile" class="form-label">Telephone/Mobile</label>
+    <input type="Tel" class="form-control" id="Mobilenumber">
+  </div>
+  <div class="col-sm-1">
+    <label for="Telephone/Mobile" class="form-label">country code</label>
+    <input type="Tel" class="form-control" id="Mobilenumber">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+       Agree all 
+      </label>
+    </div>
+  </div>
+  <center>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </div>
+  </center>
+  <div class="alert alert-info" role="alert" style="text-align: center;">
+    Check all details
+  </div>
+</form>
+<br>
+    <footer>
+      <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+        Further details: 
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0">Contacts Us</h5>
+          <p>  A tree plantation and picnic program was organized with teachers, students, and other community members, making it a delightful blend of environmental responsibility and recreation. The day began with planting saplings, where everyone actively participated, learning the importance of trees in maintaining ecological balance. After the plantation drive, a picnic followed in the lush green surroundings. Teachers and students enjoyed delicious food, sang songs, played games, and shared stories, creating a joyful and memorable experience. The program combined learning, bonding, and entertainment, leaving everyone with a sense of accomplishment and happiness. </p>
+          <a href="#" class="stretched-link">Log in</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

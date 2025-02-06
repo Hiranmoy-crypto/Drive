@@ -6,32 +6,37 @@ Basically a worldwide program is arranged to save the trees and nature and also 
 Here's a comprehensive methodology for designing and developing a webpage for arranging and registering tree plantation and picnic programs:
 
 1. Requirement Analysis
-Define the purpose of the webpage: Promote environmental awareness and encourage community engagement.
 
-Identify target users: Eco-conscious individuals, families, and corporate teams.
+i.Define the purpose of the webpage: Promote environmental awareness and encourage community engagement.
 
-Features to include: Event details (date, location, and type of event)
+ii.Identify target users: Eco-conscious individuals, families, and corporate teams.
 
-Registration forms
+iii.Features to include: Event details (date, location, and type of event)
 
-Participant tracking
+iv.Registration forms
 
-Gallery of past events
+v.Participant tracking
 
-Contact information
+vi.Gallery of past events
 
-Payment gateway (optional for paid events)
+vii.Contact information
+
+viii.Payment gateway (optional for paid events)
 
 2.Information Architecture
 
- Homepage: Brief introduction to the program, benefits of participation.
+ i.Homepage: Brief introduction to the program, benefits of participation.
 
- Event Listings: Details of upcoming tree plantation and picnic events.
+ ii.Event Listings: Details of upcoming tree plantation and picnic events.
 
-Registration Form: User input for name, contact, and event selection.
+iii.Registration Form: User input for name, contact, and event selection.
 
-Success Stories/Gallery: Images and testimonials from past events.
+iv.Success Stories/Gallery: Images and testimonials from past events.
 
-Contact Page: Inquiry form and support details
+v.Contact Page: Inquiry form and support details
 
-3."Databaases" and other "Security" will be maintained for all.
+3. Records and Safety measures
+
+     i. Databases for track records.
+   
+     ii. Information security will be maintained.

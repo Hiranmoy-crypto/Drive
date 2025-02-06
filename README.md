@@ -22,7 +22,7 @@ Contact information
 
 Payment gateway (optional for paid events)
 
-Information Architecture
+2.Information Architecture
 
  Homepage: Brief introduction to the program, benefits of participation.
 
@@ -34,4 +34,4 @@ Success Stories/Gallery: Images and testimonials from past events.
 
 Contact Page: Inquiry form and support details
 
-"Databaases" and other "Security" will be maintained for all.
+3."Databaases" and other "Security" will be maintained for all.
